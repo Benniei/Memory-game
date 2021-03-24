@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Hello!</title>
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>  
+  <body>
+    <h1>Memory Game</h1>
+    
+    <p>
+      Welcome to the game! Repeat back the patterns by pressing buttons.
+    </p>
+    
+    <button id="startBtn1" onclick="startGameEasy()">
+      Easy
+    </button>
+    <button id="startBtn2" onclick="startGameMedian()">
+      Median
+    </button>
+    <button id="startBtn3" onclick="startGameHard()">
+      Hard
+    </button>
+    <br>
+    <p>
+      Mistakes Allowed: <span id="Mistakes">0</span>
+    </p>
+    <div id = "timer" class="timer">
+    </div>
+    <button id="stopBtn" class="hidden" onclick="stopGame()">
+      Stop
+    </button>
+    
+    <div id="gameButtonArea">
+      <button class="card hidden" id="button1" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()">
+          <img src = "https://cdn.glitch.com/0784fea6-6d08-44c6-aea7-e5c53d486836%2Fnomouthboba.png?v=1616612229148" height ="100px">
+      </button>
+      <button class="card hidden" id="button2" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()">
+          <img src = "https://cdn.glitch.com/0784fea6-6d08-44c6-aea7-e5c53d486836%2Fnomouthpika.png?v=1616612230975" height ="100px">
+      </button>
+      <button class="card hidden" id="button3" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone()">
+          <img src = "https://cdn.glitch.com/0784fea6-6d08-44c6-aea7-e5c53d486836%2Fnomouthbulba.png?v=1616612232683" height ="100px">
+      </button>
+      <button class="card hidden" id="button4" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()">
+          <img src = "https://cdn.glitch.com/0784fea6-6d08-44c6-aea7-e5c53d486836%2FNMyikes.png?v=1616612234373" height ="100px">
+      </button>
+      <button class="card hidden" id="button5" onclick="guess(5)" onmousedown="startTone(5)" onmouseup="stopTone()">
+          <img src = "https://cdn.glitch.com/0784fea6-6d08-44c6-aea7-e5c53d486836%2FNMsquirtle.png?v=1616612690540" height ="100px">
+      </button>
+      <button class="card hidden" id="button6" onclick="guess(6)" onmousedown="startTone(6)" onmouseup="stopTone()">
+          <img src = "https://cdn.glitch.com/0784fea6-6d08-44c6-aea7-e5c53d486836%2FNMnotlikethis.png?v=1616612696691" height ="100px">
+      </button>
+      <button class="card hidden" id="button7" onclick="guess(7)" onmousedown="startTone(7)" onmouseup="stopTone()">
+          <img src = "https://cdn.glitch.com/0784fea6-6d08-44c6-aea7-e5c53d486836%2FNMsquirtleded.png?v=1616612704663" height ="100px">
+      </button>
+      <button class="card hidden" id="button8" onclick="guess(8)" onmousedown="startTone(8)" onmouseup="stopTone()">
+          <img src = "https://cdn.glitch.com/0784fea6-6d08-44c6-aea7-e5c53d486836%2Fwahper.png?v=1616612685981" height ="100px">
+      </button>
+      <button class="card hidden" id="button9" onclick="guess(9)" onmousedown="startTone(9)" onmouseup="stopTone()">
+          <img src = "https://cdn.glitch.com/0784fea6-6d08-44c6-aea7-e5c53d486836%2FsquirtleONO.png?v=1616612885704" height ="100px">
+      </button>
+      <button class="card hidden" id="button10" onclick="guess(10)" onmousedown="startTone(10)" onmouseup="stopTone()">
+          <img src = "https://cdn.glitch.com/0784fea6-6d08-44c6-aea7-e5c53d486836%2Fbulbaowo.png?v=1616612889062" height ="100px">
+      </button>
+      <button class="card hidden" id="button11" onclick="guess(11)" onmousedown="startTone(11)" onmouseup="stopTone()">
+          <img src = "https://cdn.glitch.com/0784fea6-6d08-44c6-aea7-e5c53d486836%2Fboxblank.png?v=1616612901908" height ="100px">
+      </button>
+      <button class="card hidden" id="button12" onclick="guess(12)" onmousedown="startTone(12)" onmouseup="stopTone()">
+          <img src = "https://cdn.glitch.com/0784fea6-6d08-44c6-aea7-e5c53d486836%2Fbob.png?v=1616612911258" height ="100px">
+      </button>
+    </div>
+  </body>
+</html>
