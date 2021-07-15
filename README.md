@@ -41,21 +41,21 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-Easy Implementation (demo version)
-![Easy Implementation (demo)](https://cdn.glitch.com/0784fea6-6d08-44c6-aea7-e5c53d486836%2Fmemgame.gif?v=1616621503359)
-Different Modes
-![Different Modes](https://cdn.glitch.com/0784fea6-6d08-44c6-aea7-e5c53d486836%2Fdiff_levels.gif?v=1616621623633)
+Easy Implementation (demo version)<br />
+![Easy Implementation (demo)](https://cdn.glitch.com/0784fea6-6d08-44c6-aea7-e5c53d486836%2Fmemgame.gif?v=1616621503359)<br />
+Different Modes<br />
+![Different Modes](https://cdn.glitch.com/0784fea6-6d08-44c6-aea7-e5c53d486836%2Fdiff_levels.gif?v=1616621623633)<br />
 
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
 
-https://htmlcolorcodes.com/color-picker/
-https://www.w3schools.com/js/js_loop_for.asp
-https://stackoverflow.com/questions/4852017/how-to-initialize-an-arrays-length-in-javascript
-https://stackoverflow.com/questions/13358887/should-i-use-hasclass-before-addclass
-https://scotch.io/tutorials/how-to-build-a-memory-matching-game-in-javascript
-My old Node.js project
+https://htmlcolorcodes.com/color-picker/<br />
+https://www.w3schools.com/js/js_loop_for.asp<br />
+https://stackoverflow.com/questions/4852017/how-to-initialize-an-arrays-length-in-javascript<br />
+https://stackoverflow.com/questions/13358887/should-i-use-hasclass-before-addclass<br />
+https://scotch.io/tutorials/how-to-build-a-memory-matching-game-in-javascript<br />
+My old Node.js project<br />
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
 
